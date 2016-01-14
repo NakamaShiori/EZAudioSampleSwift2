@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA52A93F1A0A7077F9A8FBD0 /* libPods-EZAudioSampleSwift2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B34BA0B52D33497F434CEE /* libPods-EZAudioSampleSwift2.a */; };
 		E516CA711C4620AF008AD802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516CA701C4620AF008AD802 /* AppDelegate.swift */; };
 		E516CA731C4620AF008AD802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516CA721C4620AF008AD802 /* ViewController.swift */; };
 		E516CA761C4620AF008AD802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E516CA741C4620AF008AD802 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		E516CA7B1C4620AF008AD802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E516CA791C4620AF008AD802 /* LaunchScreen.storyboard */; };
 		E516CA861C4620B0008AD802 /* EZAudioSampleSwift2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516CA851C4620B0008AD802 /* EZAudioSampleSwift2Tests.swift */; };
 		E516CA911C4620B0008AD802 /* EZAudioSampleSwift2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516CA901C4620B0008AD802 /* EZAudioSampleSwift2UITests.swift */; };
+		E516CAA11C474130008AD802 /* GlobalUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516CA9F1C474130008AD802 /* GlobalUtility.swift */; };
+		E516CAA21C474130008AD802 /* GlobalStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516CAA01C474130008AD802 /* GlobalStruct.swift */; };
+		E516CAA91C4771F9008AD802 /* green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E516CAA81C4771F9008AD802 /* green.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71539DF5975D3DC7735EE5FE /* Pods-EZAudioSampleSwift2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZAudioSampleSwift2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EZAudioSampleSwift2/Pods-EZAudioSampleSwift2.debug.xcconfig"; sourceTree = "<group>"; };
+		79B34BA0B52D33497F434CEE /* libPods-EZAudioSampleSwift2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EZAudioSampleSwift2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57A1A28A06D6C53A197DD98 /* Pods-EZAudioSampleSwift2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZAudioSampleSwift2.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZAudioSampleSwift2/Pods-EZAudioSampleSwift2.release.xcconfig"; sourceTree = "<group>"; };
 		E516CA6D1C4620AF008AD802 /* EZAudioSampleSwift2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZAudioSampleSwift2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E516CA701C4620AF008AD802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E516CA721C4620AF008AD802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,11 @@
 		E516CA8C1C4620B0008AD802 /* EZAudioSampleSwift2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZAudioSampleSwift2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E516CA901C4620B0008AD802 /* EZAudioSampleSwift2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZAudioSampleSwift2UITests.swift; sourceTree = "<group>"; };
 		E516CA921C4620B0008AD802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E516CA9E1C473C0C008AD802 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		E516CA9F1C474130008AD802 /* GlobalUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalUtility.swift; sourceTree = "<group>"; };
+		E516CAA01C474130008AD802 /* GlobalStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalStruct.swift; sourceTree = "<group>"; };
+		E516CAA51C475109008AD802 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E516CAA81C4771F9008AD802 /* green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA52A93F1A0A7077F9A8FBD0 /* libPods-EZAudioSampleSwift2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DADD9CAA4355F36C23578C3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71539DF5975D3DC7735EE5FE /* Pods-EZAudioSampleSwift2.debug.xcconfig */,
+				D57A1A28A06D6C53A197DD98 /* Pods-EZAudioSampleSwift2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB1EFE520A2E63EB997F505D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79B34BA0B52D33497F434CEE /* libPods-EZAudioSampleSwift2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E516CA641C4620AF008AD802 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				E516CA841C4620B0008AD802 /* EZAudioSampleSwift2Tests */,
 				E516CA8F1C4620B0008AD802 /* EZAudioSampleSwift2UITests */,
 				E516CA6E1C4620AF008AD802 /* Products */,
+				DADD9CAA4355F36C23578C3E /* Pods */,
+				DB1EFE520A2E63EB997F505D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +129,17 @@
 		E516CA6F1C4620AF008AD802 /* EZAudioSampleSwift2 */ = {
 			isa = PBXGroup;
 			children = (
+				E516CAA81C4771F9008AD802 /* green.jpg */,
+				E516CA9F1C474130008AD802 /* GlobalUtility.swift */,
+				E516CAA01C474130008AD802 /* GlobalStruct.swift */,
 				E516CA701C4620AF008AD802 /* AppDelegate.swift */,
 				E516CA721C4620AF008AD802 /* ViewController.swift */,
 				E516CA741C4620AF008AD802 /* Main.storyboard */,
 				E516CA771C4620AF008AD802 /* Assets.xcassets */,
 				E516CA791C4620AF008AD802 /* LaunchScreen.storyboard */,
 				E516CA7C1C4620AF008AD802 /* Info.plist */,
+				E516CA9E1C473C0C008AD802 /* Bridging-Header.h */,
+				E516CAA51C475109008AD802 /* PrefixHeader.pch */,
 			);
 			path = EZAudioSampleSwift2;
 			sourceTree = "<group>";
@@ -132,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E516CA951C4620B0008AD802 /* Build configuration list for PBXNativeTarget "EZAudioSampleSwift2" */;
 			buildPhases = (
+				001F02C3EF62E5274B6E366C /* Check Pods Manifest.lock */,
 				E516CA691C4620AF008AD802 /* Sources */,
 				E516CA6A1C4620AF008AD802 /* Frameworks */,
 				E516CA6B1C4620AF008AD802 /* Resources */,
+				B313C34916890054A119B7F9 /* Embed Pods Frameworks */,
+				FA61A3DAB5DD014D66B6792A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +272,7 @@
 				E516CA7B1C4620AF008AD802 /* LaunchScreen.storyboard in Resources */,
 				E516CA781C4620AF008AD802 /* Assets.xcassets in Resources */,
 				E516CA761C4620AF008AD802 /* Main.storyboard in Resources */,
+				E516CAA91C4771F9008AD802 /* green.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +292,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		001F02C3EF62E5274B6E366C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B313C34916890054A119B7F9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZAudioSampleSwift2/Pods-EZAudioSampleSwift2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA61A3DAB5DD014D66B6792A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZAudioSampleSwift2/Pods-EZAudioSampleSwift2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E516CA691C4620AF008AD802 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E516CAA11C474130008AD802 /* GlobalUtility.swift in Sources */,
 				E516CA731C4620AF008AD802 /* ViewController.swift in Sources */,
 				E516CA711C4620AF008AD802 /* AppDelegate.swift in Sources */,
+				E516CAA21C474130008AD802 /* GlobalStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +429,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = /Users/Nakama/Desktop/ios/EZAudioSampleSwift2/EZAudioSampleSwift2/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -380,6 +472,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = /Users/Nakama/Desktop/ios/EZAudioSampleSwift2/EZAudioSampleSwift2/PrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -395,23 +488,29 @@
 		};
 		E516CA961C4620B0008AD802 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71539DF5975D3DC7735EE5FE /* Pods-EZAudioSampleSwift2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = EZAudioSampleSwift2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nakama.EZAudioSampleSwift2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Nakama/Desktop/ios/EZAudioSampleSwift2/EZAudioSampleSwift2/Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		E516CA971C4620B0008AD802 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D57A1A28A06D6C53A197DD98 /* Pods-EZAudioSampleSwift2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = EZAudioSampleSwift2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nakama.EZAudioSampleSwift2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Nakama/Desktop/ios/EZAudioSampleSwift2/EZAudioSampleSwift2/Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -482,6 +581,7 @@
 				E516CA971C4620B0008AD802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E516CA981C4620B0008AD802 /* Build configuration list for PBXNativeTarget "EZAudioSampleSwift2Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +590,7 @@
 				E516CA9A1C4620B0008AD802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E516CA9B1C4620B0008AD802 /* Build configuration list for PBXNativeTarget "EZAudioSampleSwift2UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +599,7 @@
 				E516CA9D1C4620B0008AD802 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
